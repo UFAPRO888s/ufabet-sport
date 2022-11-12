@@ -43,30 +43,3 @@ traffic มาจาก [Google][1] หรือมาจาก
 [1]: http://aaaknights.com/ "Google"
 [2]: http://loopyt.com/ "Yahoo Search"
 [3]: http://yousimplified.net/ "MSN Search"
-
-
-
-<!-- Script linked from the outside-->
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-<script type="text/javascript">
-function getRandomInt(max) { return Math.floor(Math.random() * max);}
-jQuery(document).ready(function () {
-var pathxd = window.location.pathname;
-      data = {
-        "@context": "https://schema.org/",
-        "@type": "CreativeWorkSeries",
-        "name": "UFABETเว็บตรง พนันออนไลน์ ง่ายปลอดภัย เว็บตรงพร้อมให้บริการ",
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": getRandomInt(5),
-          "bestRating": getRandomInt(5),
-          "ratingCount": getRandomInt(91532),
-                }
-          };
-        var aggregateRating = document.createElement('script');
-        aggregateRating.type = "application/ld+json";
-        aggregateRating.innerHTML = JSON.stringify(data);
-        document.getElementsByTagName('head')[0].appendChild(aggregateRating);
-      });
-</script>
-<!-- Script linked from the outside-->

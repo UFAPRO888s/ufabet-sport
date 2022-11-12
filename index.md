@@ -47,6 +47,7 @@ traffic มาจาก [Google][1] หรือมาจาก
 
 
 <!-- Script linked from the outside-->
+
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script type="text/javascript">
 function getRandomInt(max) { return Math.floor(Math.random() * max);}
@@ -69,4 +70,5 @@ var pathxd = window.location.pathname;
         document.getElementsByTagName('head')[0].appendChild(aggregateRating);
       });
 </script>
+
 <!-- Script linked from the outside-->
